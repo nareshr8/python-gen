@@ -1,0 +1,8 @@
+Type: IPython Notebook Extension
+Name: Python Code Generator
+Description: Extension that uses nbdev from FastAI to generate code in python
+Main: main.js
+Link: readme.md
+Icon: icon.png
+Compatibility: Jupyter (3.x, 4.x, 5.x, 6.x)
+
