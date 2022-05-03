@@ -19,7 +19,7 @@ mk_val=Jupyter.notebook.insert_cell_at_bottom('markdown');
 mk_val.set_text(output);
 mk_val.is_generated=true;
             Jupyter.notebook.execute_cells([-1]);
-}, 2000);
+}, 10000);
             // 
             // Button to add default cell
       }
