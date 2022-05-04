@@ -1,0 +1,2 @@
+recursive-include jupyter-config *.json
+recursive-include python-gen/static *.js

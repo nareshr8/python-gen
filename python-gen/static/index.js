@@ -30,8 +30,9 @@ mk_val.is_generated=true;
                 'help': 'Convert to Python',
                 'icon' : 'fa-code',
                 'handler': create_python
-            }, 'create-python-file', 'python File')
-        ])
+            }, 'create-py-file', 'nbdev')
+        ]);
+        Jupyter.keyboard_manager.command_shortcuts.add_shortcut('p,p', 'nbdev:create-py-file');
     };
     // Run on start
     function load_ipython_extension() {
