@@ -1,7 +1,7 @@
 {
     "NotebookApp": {
       "nbserver_extensions": {
-        "python_gen": true
+        "python-gen/index": true
       }
     }
   }

@@ -32,7 +32,7 @@ mk_val.is_generated=true;
                 'handler': create_python
             }, 'create-py-file', 'nbdev')
         ]);
-        Jupyter.keyboard_manager.command_shortcuts.add_shortcut('p,p', 'nbdev:create-py-file');
+        Jupyter.keyboard_manager.command_shortcuts.add_shortcut(';,;', 'nbdev:create-py-file');
     };
     // Run on start
     function load_ipython_extension() {

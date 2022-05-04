@@ -14,7 +14,13 @@ Extension for converting IPython notebook to Python file for nbdev users. Note t
 
 `pip install PythonFileGenerator`
 
+- Then run the following command. This is a temporary step and would be fixed going forward.
+
+`jupyter nbextension enable python-gen/index`
+
+The validation should be successful.
+
 - Start using it in either of the two ways
 
     - Click the Code button on the Jupyter notebook
-    - Press p twice (`p+p`) when you are in command mode
+    - Press ; twice (`;+;`) when you are in command mode
