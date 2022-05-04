@@ -12,7 +12,7 @@ Extension for converting IPython notebook to Python file for nbdev users. Note t
 
 - Install the extension
 
-`pip install https://github.com/nareshr8/python-gen`
+`pip install PythonFileGenerator`
 
 - Start using it in either of the two ways
 

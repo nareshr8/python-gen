@@ -3,13 +3,13 @@ import setuptools
 setuptools.setup(
     name="PythonFileGenerator",
     license='Apache Software License 2.0',
-    version="0.0.1",
+    version="0.0.3",
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
-        'License :: apache2',
+        'License :: OSI Approved :: Apache Software License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 3.8 3.9 3.10'],
+        'Programming Language :: Python :: 3.8'],
     include_package_data=True,
     data_files=[
         # like `jupyter nbextension install --sys-prefix`
@@ -28,5 +28,7 @@ setuptools.setup(
     install_requires = 'nbdev>=0.0.1',
     python_requires  = '>=3.8',
     url="https://github.com/nareshr8/python-gen",
+    description='''A Jupyter Notebook extension to generate Python files''',
+    long_description='''A Jupyter Notebook extension to generate Python files''',
     zip_safe=False
 )
